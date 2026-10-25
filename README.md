@@ -10,7 +10,7 @@ Comparação experimental, num único computador (*single node*), entre **KVM (T
 ```text
 Host — Ubuntu 24.04.5 LTS | Intel Core i5-12450H | 15 GiB RAM
 Servidor iPerf3: 192.168.1.97
-     ├── QEMU 8.2.2 / KVM (libvirt 10.0.0)
+     ├──  KVM (libvirt 10.0.0)
      │    Ubuntu Server 24.04 | 2 vCPU | 4 GiB RAM | disco 25 GiB
      │    VirtIO · rede libvirt default (normalmente NAT)
      │    VM 192.168.122.254  →  gateway 192.168.122.1
