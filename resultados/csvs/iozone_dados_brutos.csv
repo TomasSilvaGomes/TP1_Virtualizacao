@@ -1,0 +1,10 @@
+environment,repetition,file,direct_io_enabled,write_kB_s,rewrite_kB_s,read_kB_s,reread_kB_s,random_read_kB_s,random_write_kB_s
+host,1,host_iozone_1.txt,True,97980.54,99492.9,50531.73,50665.31,41095.11,92167.33
+host,2,host_iozone_2.txt,True,96966.97,97202.61,52546.92,51530.14,46190.54,99729.98
+host,3,host_iozone_3.txt,True,99570.54,99693.59,52360.61,51707.25,44780.3,99565.79
+kvm,1,kvm_iozone_1.txt,True,264210.73,326927.81,309997.16,335997.08,336524.56,323133.64
+kvm,2,kvm_iozone_2.txt,True,259918.78,320800.59,338371.39,339650.05,335897.27,325377.16
+kvm,3,kvm_iozone_3.txt,True,280055.81,272741.39,336603.72,328308.23,327734.72,311211.17
+virtualbox,1,virtualbox_iozone_1.txt,True,146158.67,162441.87,25664.3,28978.48,22131.7,170571.13
+virtualbox,2,virtualbox_iozone_2.txt,True,157586.66,181394.37,29548.7,28365.43,19625.16,182715.16
+virtualbox,3,virtualbox_iozone_3.txt,True,161606.84,184614.22,28669.36,28887.84,18340.67,152469.2

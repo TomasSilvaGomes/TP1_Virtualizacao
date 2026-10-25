@@ -1,0 +1,13 @@
+environment,protocol,repetition,file,target_ip,source_ip,reverse_mode,throughput_Gbit_s,jitter_ms,lost_datagrams,total_datagrams,loss_percent
+kvm,tcp,1,kvm_tcp_1.txt,192.168.1.97,192.168.122.254,False,43.2,,,,
+kvm,tcp,2,kvm_tcp_2.txt,192.168.1.97,192.168.122.254,False,45.3,,,,
+kvm,tcp,3,kvm_tcp_3.txt,192.168.1.97,192.168.122.254,False,46.5,,,,
+virtualbox,tcp,1,virtualbox_tcp_1.txt,192.168.1.97,10.0.2.15,False,2.01,,,,
+virtualbox,tcp,2,virtualbox_tcp_2.txt,192.168.1.97,10.0.2.15,False,2.05,,,,
+virtualbox,tcp,3,virtualbox_tcp_3.txt,192.168.1.97,10.0.2.15,False,2.0,,,,
+kvm,udp,1,kvm_udp_1.txt,192.168.122.1,192.168.122.254,True,,0.005,0.0,258988.0,0.0
+kvm,udp,2,kvm_udp_2.txt,192.168.122.1,192.168.122.254,True,,0.003,0.0,258988.0,0.0
+kvm,udp,3,kvm_udp_3.txt,192.168.122.1,192.168.122.254,True,,0.004,0.0,258979.0,0.0
+virtualbox,udp,1,virtualbox_udp_1.txt,192.168.1.97,10.0.2.15,False,,0.003,0.0,256842.0,0.0
+virtualbox,udp,2,virtualbox_udp_2.txt,192.168.1.97,10.0.2.15,False,,0.003,0.0,256842.0,0.0
+virtualbox,udp,3,virtualbox_udp_3.txt,192.168.1.97,10.0.2.15,False,,0.004,0.0,256842.0,0.0
